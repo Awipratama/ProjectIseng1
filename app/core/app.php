@@ -31,7 +31,7 @@ class App
             }
         }
 
-        echo 'not found';
+        require_once __DIR__ . './../views/notFound.html';
         return;
     }
 }
